@@ -36,7 +36,6 @@
 		E97223FE2B03B58D005ACDB1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97223FD2B03B58D005ACDB1 /* HeaderView.swift */; };
 		E97224002B03BF28005ACDB1 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97223FF2B03BF28005ACDB1 /* TLButton.swift */; };
 		E97224022B04C026005ACDB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97224012B04C026005ACDB1 /* Extensions.swift */; };
-		E97224042B04CB01005ACDB1 /* ToDoListViewModelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97224032B04CB01005ACDB1 /* ToDoListViewModelViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +85,6 @@
 		E97223FD2B03B58D005ACDB1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E97223FF2B03BF28005ACDB1 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		E97224012B04C026005ACDB1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		E97224032B04CB01005ACDB1 /* ToDoListViewModelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModelViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,12 +193,11 @@
 			children = (
 				E97223EF2B03B0A2005ACDB1 /* MainViewViewModel.swift */,
 				E97223F12B03B0B0005ACDB1 /* ProfileViewViewModel.swift */,
-				E97223F32B03B0C9005ACDB1 /* ToDoListViewViewModel.swift */,
 				E97223F52B03B0D6005ACDB1 /* NewItemViewViewModel.swift */,
 				E97223F72B03B0E0005ACDB1 /* LoginViewViewModel.swift */,
 				E97223F92B03B0EA005ACDB1 /* RegisterViewViewModel.swift */,
+				E97223F32B03B0C9005ACDB1 /* ToDoListViewViewModel.swift */,
 				E97223FB2B03B0FD005ACDB1 /* ToDoListItemViewViewModel.swift */,
-				E97224032B04CB01005ACDB1 /* ToDoListViewModelViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -371,7 +368,6 @@
 				E97223F02B03B0A2005ACDB1 /* MainViewViewModel.swift in Sources */,
 				E97223E22B03AF69005ACDB1 /* ToDoListView.swift in Sources */,
 				E97223E82B03AFEA005ACDB1 /* RegisterView.swift in Sources */,
-				E97224042B04CB01005ACDB1 /* ToDoListViewModelViewModel.swift in Sources */,
 				E97224002B03BF28005ACDB1 /* TLButton.swift in Sources */,
 				E97223F22B03B0B0005ACDB1 /* ProfileViewViewModel.swift in Sources */,
 				E97223E02B03AF43005ACDB1 /* ProfileView.swift in Sources */,

@@ -27,15 +27,13 @@ struct ToDoListView: View {
                 "To Do List"
             )
             .toolbar {
-                Button(action: /*@START_MENU_TOKEN@*/{
-                }/*@END_MENU_TOKEN@*/,
-                       
-                       label: {
-                    Image(
-                        systemName: "plus"
-                    )
-                })
+                Button {
+                    viewModel.showingNewItemView = true
+                } label: {
+                    Image(systemName: "plus")
+                }
             }
+            .sheet(isPresented: $viewModel.showingNewItemView) { NewItemView(newItemPresented: $viewModel.showingNewItemView)}
         }
     }
 }
