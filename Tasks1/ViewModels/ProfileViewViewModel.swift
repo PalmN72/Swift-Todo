@@ -10,12 +10,10 @@ import Foundation
 
 class ProfileViewViewModel: ObservableObject {
     
-    init() {
-        
-    }
+    init() {}
     
     @Published var user: User? = nil
-
+    
     func fetchUser() {
         guard let userId = Auth.auth().currentUser?.uid else {
             return
@@ -39,6 +37,10 @@ class ProfileViewViewModel: ObservableObject {
     }
     
     func logOut() {
-        
+        do {
+            try Auth.auth().signOut()
+        } catch {
+            print(error)
+        }
     }
 }
