@@ -36,6 +36,7 @@
 		E97223FE2B03B58D005ACDB1 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97223FD2B03B58D005ACDB1 /* HeaderView.swift */; };
 		E97224002B03BF28005ACDB1 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97223FF2B03BF28005ACDB1 /* TLButton.swift */; };
 		E97224022B04C026005ACDB1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97224012B04C026005ACDB1 /* Extensions.swift */; };
+		E97224062B0511F4005ACDB1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97224052B0511F4005ACDB1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		E97223FD2B03B58D005ACDB1 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E97223FF2B03BF28005ACDB1 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		E97224012B04C026005ACDB1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E97224052B0511F4005ACDB1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				E97223D92B03ABA5005ACDB1 /* GoogleService-Info.plist */,
 				E97223AC2B03A9A3005ACDB1 /* Assets.xcassets */,
 				E97224012B04C026005ACDB1 /* Extensions.swift */,
+				E97224052B0511F4005ACDB1 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			files = (
 				E97223B02B03A9A3005ACDB1 /* Preview Assets.xcassets in Resources */,
 				E97223DA2B03ABA5005ACDB1 /* GoogleService-Info.plist in Resources */,
+				E97224062B0511F4005ACDB1 /* Launch Screen.storyboard in Resources */,
 				E97223AD2B03A9A3005ACDB1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,6 +555,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -580,6 +585,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
